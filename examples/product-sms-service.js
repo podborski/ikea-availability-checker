@@ -1,8 +1,15 @@
 /**
  * Retreive the availbility of products given an iterval and send sms notification when the product
  * becomes available
+ * 
+ * Set environment variables: 
+ *   export TWILIO_SID="xxxxxxx"   # get from your TWILIO account
+ *   export TWILIO_TOKEN="xxxxxxx" # get from your TWILIO account
+ *   export TWILIO_PHONE="+1xxxxxxxxx" # get from your TWILIO account (get a phone Nr for SMS)
+ *   export MY_PHONE="+1xxxxxxxxx" # Your phone
  *
- *   node examples/product-sms-service.js examples/desired_items.csv
+ *  Run the script:
+ *    node examples/product-sms-service.js examples/desired_items.csv
  */
 
 const ikea = require('../source');
