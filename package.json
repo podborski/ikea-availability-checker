@@ -65,7 +65,12 @@
     "chalk": "4.1.2",
     "cli-table3": "0.6.0",
     "commander": "8.3.0",
-    "i18n-iso-countries": "7.0.0"
+    "console-stamp": "^3.0.3",
+    "csv-parse": "^5.0.4",
+    "i18n-iso-countries": "7.0.0",
+    "ikea-availability-checker": "^1.0.5",
+    "node-schedule": "^2.1.0",
+    "twilio": "^3.72.0"
   },
   "devDependencies": {
     "@commitlint/cli": "15.0.0",
